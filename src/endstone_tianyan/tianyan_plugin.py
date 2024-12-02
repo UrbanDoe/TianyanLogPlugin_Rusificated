@@ -369,8 +369,9 @@ class TianyanPlugin(Plugin):
     def on_enable(self) -> None:
         self.logger.info(f"{ColorFormat.YELLOW}Плагин Небесный Глаз активирован, версия V1.1.3, конфигурационный файл находится в plugins/tianyan_data/config.json")
         self.logger.info(f"{ColorFormat.YELLOW}Остальные файлы данных находятся в plugins/tianyan_data/")
-        self.logger.info(f"{ColorFormat.YELLOW}Адрес обновления проектаhttps://github.com/yuhangle/Endstone_TianyanPlugin")
-        self.logger.info(f"{ColorFormat.YELLOW}Перевод на русский https://urban.sytes.net")
+        self.logger.info(f"{ColorFormat.YELLOW}Адрес обновления проекта https://github.com/yuhangle/Endstone_TianyanPlugin")
+        self.logger.info(f"{ColorFormat.YELLOW}Перевод на русский: Проект Urban - Сервер Minecraft Bedrock")
+        self.logger.info(f"{ColorFormat.YELLOW}https://urban.sytes.net")
         self.register_events(self)
 
     def on_disable(self) -> None:
