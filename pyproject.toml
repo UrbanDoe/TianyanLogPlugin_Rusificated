@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "endstone-tianyan"
 version = "1.1.3"
-description = "Rusificated Endstone log plugin by Tianyan"
+description = "Russified Endstone log plugin by Tianyan"
 authors = [
     { name = "yuhang", email = "keepsecret@nothing.mc" },
 ]
